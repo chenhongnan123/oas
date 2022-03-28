@@ -1,0 +1,55 @@
+{
+    "auth": {
+        "identifier": "app@shopworx.com",
+        "password": "Entrib!23",
+        "issingle": true
+    },
+    "action":{
+        "updateip": "updateip",
+        "updatemachine": "updatemachine",
+        "addrejection": "addrejection",
+        "deleterejection": "deleterejection",
+        "startplan": "startplan",
+        "abortplan": "abortplan",
+        "pauseplan": "pauseplan",
+        "restartplan": "restartplan",
+        "addandon": "addandon",
+        "closeandon": "closeandon",
+        "terminateandon": "terminateandon",
+        "updatedowntime": "updatedowntime"
+    },
+    "production": {
+        "planinterval": 10000
+    },
+    "qclaert": {
+        "qchh": [
+            "01",
+            "03",
+            "04",
+            "07",
+            "09",
+            "11",
+            "13",
+            "15",
+            "17",
+            "19",
+            "21",
+            "23"
+          ],
+        "ipqchh": [
+            "00",
+            "04",
+            "08",
+            "12",
+            "16",
+            "20"
+          ]
+    },
+    "shiftmmss": [
+        "00:00"
+    ],
+    "footer": {
+        "verssion":"V1.2.34",
+        "alarminterval": 5000
+    }
+}
